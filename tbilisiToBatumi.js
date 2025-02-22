@@ -14,4 +14,32 @@
 // Welcome to Kutaisi
 // Welcome to Batumi
 
-const fuel = 50;
+let fuel = 110;
+
+if(fuel >= 80){
+    console.log('Welcome to Batumi');
+}else if(fuel >= 50){
+    console.log('Welcome to Kutaisi');
+}else if(fuel >= 30){
+    console.log('Welcome to Khashuri');
+}else if (fuel >= 20){
+    console.log(' Welcome to Gori');
+}else if (fuel >= 10){
+    console.log(' Welcome to Igoeti');
+}else{
+    console.log('Not enough fuel');
+}
+
+
+
+if( fuel >= 160) {
+    console.log('Welcome back to Tbilisi')
+}else if (fuel >= 150) {
+    console.log('Welcome back to Igoeti');
+}else if (fuel >= 140){
+    console.log('Welcome back to Gori');
+}else if(fuel >= 130){
+    console.log('Welcome back to Khashuri');
+}else if (fuel >= 110){
+    console.log('Welcome back to Kutaisi');
+}
